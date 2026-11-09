@@ -1,0 +1,240 @@
+/* ========================================
+   KEYONNA MAULTSBY E-PORTFOLIO
+   Tech & Gaming Inspired Theme
+======================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eef2f7;
+    font-family: 'Oxygen', Arial, sans-serif;
+    color: #334155;
+}
+
+#wrapper {
+    background: #eef2f7;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* ====================
+   NAVIGATION
+==================== */
+
+#menu-wrapper {
+    background: linear-gradient(90deg, #1e293b, #4f7df0);
+    height: 60px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+}
+
+#menu {
+    height: 60px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    display: block;
+    padding: 0 20px;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+#menu a:hover {
+    background: #8b5cf6;
+}
+
+.current_page_item a {
+    background: #14b8a6;
+}
+
+/* ====================
+   HEADER
+==================== */
+
+#logo {
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+#logo h1 {
+    font-size: 64px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+#logo p {
+    font-size: 24px;
+    color: #64748b;
+}
+
+/* ====================
+   PROFILE PHOTO
+==================== */
+
+.profile-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.profile-pic {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #3b82f6;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+
+/* ====================
+   ABOUT SECTION
+==================== */
+
+#page {
+    padding: 20px 0;
+}
+
+.entry {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.08);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* ====================
+   PROJECT CARDS
+==================== */
+
+#three-column {
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.tbox1,
+.tbox2,
+.tbox3 {
+    width: 31%;
+    min-height: 425px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.10);
+    transition: all .3s ease;
+}
+
+.tbox1:hover,
+.tbox2:hover,
+.tbox3:hover {
+    transform: translateY(-8px);
+}
+
+.tbox1 {
+    float: left;
+}
+
+.tbox2 {
+    float: left;
+    margin-left: 3.5%;
+}
+
+.tbox3 {
+    float: right;
+}
+
+.box-style {
+    border-radius: 18px;
+}
+
+.box-style .content {
+    padding: 25px;
+}
+
+.box-style h2 {
+    color: #1e293b;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.box-style p {
+    line-height: 1.8;
+}
+
+/* ====================
+   BUTTONS
+==================== */
+
+.button {
+    display: inline-block;
+    margin: 8px 4px;
+    padding: 12px 20px;
+    background: #8b5cf6;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background: #14b8a6;
+    transform: translateY(-3px);
+}
+
+/* ====================
+   FOOTER
+==================== */
+
+#footer {
+    background: #1e293b;
+    margin-top: 50px;
+    padding: 40px 20px;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* ====================
+   MOBILE SUPPORT
+==================== */
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .tbox1,
+    .tbox2,
+    .tbox3 {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+        min-height: auto;
+    }
+
+    #logo h1 {
+        font-size: 42px;
+    }
+}
+    
